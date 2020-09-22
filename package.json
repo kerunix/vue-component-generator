@@ -1,9 +1,11 @@
 {
   "name": "vue-components-generator",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An opinionated CLI tool to generate Vue.js components and their respective Unit Tests files.",
   "main": "src/index.js",
-  "bin": "src/index.js",
+  "bin": {
+    "vcg": "src/index.js"
+  },
   "scripts": {
     "test": "jest",
     "test:coverage": "jest --collect-coverage"
