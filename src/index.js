@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 // TODO: View components generation
 
 const program = require('commander');

@@ -1,17 +1,34 @@
 {
-  "name": "vue-component-generator",
+  "name": "vue-components-generator",
   "version": "1.0.0",
   "description": "An opinionated CLI tool to generate Vue.js components and their respective Unit Tests files.",
-  "main": "index.js",
+  "main": "src/index.js",
+  "bin": "src/index.js",
   "scripts": {
-    "test": "jest --collect-coverage"
+    "test": "jest",
+    "test:coverage": "jest --collect-coverage"
   },
-  "author": "",
+  "author": "Kerunix",
   "license": "MIT",
   "dependencies": {
     "commander": "^6.1.0"
   },
+  "keywords": [
+    "javascript",
+    "vue.js",
+    "vue",
+    "js",
+    "cli"
+  ],
   "devDependencies": {
     "jest": "^26.4.2"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kerunix/vue-component-generator.git"
+  },
+  "bugs": {
+    "url": "https://github.com/kerunix/vue-component-generator/issues"
+  },
+  "readme": "https://github.com/kerunix/vue-component-generator#readme"
 }

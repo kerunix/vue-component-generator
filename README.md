@@ -1,10 +1,10 @@
-# Vue Component Generator
+# Vue Components Generator
 
 > An opinionated CLI tool to generate Vue.js single file components and their respective Unit Tests files.
 
 ## Table of content
 
-- [Vue Component Generator](#vue-component-generator)
+- [Vue Components Generator](#vue-components-generator)
   - [Table of content](#table-of-content)
   - [Installation](#installation)
   - [Basic Usage](#basic-usage)
