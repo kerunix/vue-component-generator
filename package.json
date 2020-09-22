@@ -1,0 +1,17 @@
+{
+  "name": "vue-component-generator",
+  "version": "1.0.0",
+  "description": "An opinionated CLI tool to generate Vue.js components and their respective Unit Tests files.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --collect-coverage"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^6.1.0"
+  },
+  "devDependencies": {
+    "jest": "^26.4.2"
+  }
+}
